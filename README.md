@@ -14,3 +14,17 @@ Frontend: HTML, CSS, JavaScript, React.js
 Backend: Node.js, Express.js
 Database: MySQL
 Other Tools: Git, Docker
+
+# Installation
+## Clone the repository:
+git clone https://github.com/Kushagra128/Hotel-Management-System.git
+
+## Navigate to the project directory:
+cd hotel-management-system
+
+## Install dependencies:
+npm install
+
+Set up the database and configure environment variables.
+## Start the application:
+npm start
