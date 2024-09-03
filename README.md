@@ -36,9 +36,9 @@ Other Tools: Git, Docker
 ```bash
   git clone https://github.com/Kushagra128/Hotel-Management-System.git
 ```
-### Navigate to the project directory:
+### Navigate to the Frontend directory:
 ```bash
-  cd hotel-management-system
+  cd hotel-management-system/frontend
 ```
 ### Install dependencies:
 
@@ -46,9 +46,19 @@ Other Tools: Git, Docker
   npm install
 ```
 Set up the database and configure environment variables.
-### Start the application:
+### Navigate to the Backend directory:
 
+```bash
+  cd hotel-management-system/backend
+```
+### Start backend server
+After navigate to the Backend Directory
+```bash
+  nodemon ./server.js
+```
+
+### Start the application:
+After navigate to the Frontend Directory
 ```bash
   npm start
 ```
-
